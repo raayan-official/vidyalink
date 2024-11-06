@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.navbar{
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5); 
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+.box2{
+    height: 100%;
+    width: 50%;
+}
+
+
+.login{
+        width: 400px;
+        padding: 40px 30px;
+        background: transparent;
+        backdrop-filter: blur(10px);
+        border-radius: 20px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        
+    
+}
+.login h1{
+    text-align: center;
+    color: rgb(0, 0, 128, 0.6);
+    margin-bottom: 20px;
+}
+
+.box2 input[type="email"],
+    .box2 input[type="password"],
+    .box2 input[type="submit"]{
+        margin-top: 10px;
+        width: 100%;
+        padding: 12px;
+        outline: none;
+        margin-bottom: 20px;
+        border-radius: 25px;
+        background: transparent;
+        border: 2px solid rgb(255, 255, 255, 0.4);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        transition: all 0.3s ease;
+    }
+
+    .box2 input[type="email"]:focus,
+    .box2 input[type="password"]:focus {
+        border: 2px solid rgb(0, 0, 128, 0.4);
+    }
+
+    ::placeholder{
+        color: rgb(0, 0, 128, 0.6);
+    }
+
+    .box2 input[type="submit"] {
+        background-color: rgb(0, 0, 128, 0.6);
+        color: #fff;
+        cursor: pointer;
+        font-weight: bold;
+        border: none;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transition: all 0.3s ease;
+    }
+
+    .box2 input[type="submit"]:hover {
+        background-color: rgb(0, 0, 128, 0.9);
+    }
+    .box2 p, a{
+        text-align: right;
+        padding: 5px;
+        font-size: 0.9rem;
+        text-decoration: none;
+    }
+
+  
