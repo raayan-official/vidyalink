@@ -1,0 +1,1 @@
+VidyaLink is a web application designed for educational resource management. It allows users to perform CRUD (Create, Read, Update, Delete) operations on a collection of academic resources, making it easy to organize, edit, and delete educational materials.
